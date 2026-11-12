@@ -22,18 +22,3 @@ All public website assets live in `public/assets/` and are referenced with Larav
 - `fonts/`: self-hosted licensed web fonts
 
 Use lowercase kebab-case filenames, prefer WebP for photographs, SVG for logos/icons, and GLB for web 3D models.
-
-
-## Homepage hero slider image slots
-
-Place the approved, original product/company images in `public/assets/images/hero/` using these exact filenames:
-
-| Filename | Slide purpose | Recommended image |
-|---|---|---|
-| `madina-primary-hero.webp` | Slide 1 | Your primary hero product image (replaces the vector fallback) |\n| `industrial-weighing-scale.webp` | Slide 2 | Industrial platform/floor scale in a clean setting |
-| `counting-scale.webp` | Slide 3 | Precision counting scale, front three-quarter view |
-| `madina-service-support.webp` | Slide 4 | MADINA technician, service or customer-support scene |
-
-Use landscape images (ideally 1600 × 1200 px or larger), WebP format, and keep the product clearly visible with some negative space. The first slide currently uses the existing vector scale illustration as a temporary visual. Replace it with your own image when ready; keep the original file backed up.
-
-The three image paths above are referenced directly by the hero slider. If an image is not yet present, the dark green branded visual fallback remains visible.
