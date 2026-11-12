@@ -3740,3 +3740,144 @@ img {
     .contact-page-heading h1 { font-size: clamp(38px, 11vw, 54px); }
     .contact-note { align-items: flex-start; padding: 18px; }
 }
+
+
+/* Requested image integration: Our Solutions cards */
+.solution-card .product-art {
+  position: relative;
+  isolation: isolate;
+}
+.solution-card .product-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  object-fit: contain;
+  object-position: center;
+  mix-blend-mode: multiply;
+  transition: transform .45s cubic-bezier(.2,.7,.2,1);
+}
+.solution-card:hover .product-art img {
+  transform: scale(1.045);
+}
+
+/* Founder message on the About page */
+.md-message-section {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  background: #f5f8f6;
+}
+.md-message-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, .82fr) minmax(0, 1.18fr);
+  align-items: center;
+  gap: clamp(32px, 6vw, 82px);
+}
+.md-message-portrait {
+  position: relative;
+  min-height: 430px;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #0a2118;
+  box-shadow: 0 24px 60px #071b151c;
+}
+.md-message-portrait img {
+  display: block;
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  object-position: center 22%;
+}
+.md-message-photo-caption {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 15px 18px;
+  color: #fff;
+  border: 1px solid #ffffff30;
+  border-radius: 12px;
+  background: #061b13d9;
+  backdrop-filter: blur(12px);
+}
+.md-message-photo-caption strong,
+.md-message-signature strong {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 800;
+}
+.md-message-photo-caption span,
+.md-message-signature span {
+  color: #a9c4b5;
+  font-size: 11px;
+}
+.md-message-copy {
+  position: relative;
+  padding: 28px 0;
+}
+.md-quote-mark {
+  height: 70px;
+  margin-top: 16px;
+  color: var(--brand-500);
+  font-family: Georgia, serif;
+  font-size: 100px;
+  line-height: 1;
+}
+.md-message-copy blockquote {
+  margin: 0;
+  color: #14241c;
+  font-family: var(--font-display);
+  font-size: clamp(23px, 2.6vw, 34px);
+  font-weight: 700;
+  line-height: 1.42;
+  letter-spacing: -.04em;
+}
+.md-message-signature {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid #dce7e0;
+}
+.md-message-signature strong {
+  color: #0b2117;
+}
+.md-message-signature span {
+  color: #66776d;
+}
+@media (max-width: 760px) {
+  .md-message-section {
+    padding-top: 10px;
+    padding-bottom: 64px;
+  }
+  .md-message-grid {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+  .md-message-portrait {
+    min-height: 0;
+    max-width: 440px;
+  }
+  .md-message-portrait img {
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+  }
+  .md-message-copy {
+    padding: 0;
+  }
+  .md-message-copy blockquote {
+    font-size: clamp(22px, 6vw, 29px);
+  }
+}
+
+
+/* Hero carousel transition support */
+.hero-slide .hero-copy,
+.hero-slide .hero-visual {
+  transition: opacity .55s ease, transform .55s cubic-bezier(.2,.7,.2,1);
+}

@@ -9,26 +9,12 @@
                 <div class="about-visual reveal">
                     <div class="about-photo">
                         <div class="photo-grid" aria-hidden="true"></div>
-                        <div class="facility-art" aria-hidden="true">
-                            <svg viewBox="0 0 600 430">
-                                <defs><linearGradient id="building" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dbe6e1"/><stop offset="1" stop-color="#60736b"/></linearGradient></defs>
-                                <path d="M35 165 292 45 565 151 565 389 35 389Z" fill="#142a22"/>
-                                <path d="M35 165 292 45 292 389 35 389Z" fill="url(#building)"/>
-                                <path d="M292 45 565 151 565 389 292 389Z" fill="#1d342b"/>
-                                <path d="M50 181 280 77 280 113 50 219Z" fill="#f1f6f3" opacity=".65"/>
-                                <path d="M50 236 280 132M50 294 280 190M50 352 280 248" stroke="#9bb2a7" stroke-width="7"/>
-                                <path d="M78 203 78 376M150 171 150 376M222 138 222 376" stroke="#62776c" stroke-width="6"/>
-                                <path d="M314 102 544 191 544 376 314 376Z" fill="#0c1e18"/>
-                                <path d="M333 133 525 207 525 366 333 366Z" fill="#9fb1a8"/>
-                                <path d="M343 145 514 211 514 354 343 354Z" fill="#19352a"/>
-                                <path d="M354 157 501 215 501 342 354 342Z" fill="#a9c0b4"/>
-                                <path d="M355 250 500 307M355 286 500 343" stroke="#19352a" stroke-width="5"/>
-                                <path d="M292 45 565 151 565 176 292 70Z" fill="#e8f0ec"/>
-                                <path d="M82 170 190 121 252 145 145 194Z" fill="#00b95b"/>
-                                <path d="M92 167 191 124 240 144 143 188Z" fill="#f8fffb"/>
-                                <text x="166" y="163" text-anchor="middle" font-family="Arial" font-weight="800" font-size="23" fill="#0d281d">MADINA</text>
-                                <path d="M25 389H579" stroke="#dce8e2" stroke-width="9"/>
-                            </svg>
+                        <div class="facility-art">
+                            <img
+                                src="{{ asset('assets/images/about/madina-facility.webp') }}"
+                                alt="MADINA team"
+                                loading="lazy"
+                            >
                         </div>
                         <div class="about-image-label"><span class="label-mark">M</span><span>Weighing confidence<br><b>Since 2008</b></span></div>
                     </div>
@@ -48,6 +34,30 @@
                 </div>
             </div>
         </section>
+
+
+<section class="section md-message-section">
+    <div class="container md-message-grid">
+        <div class="md-message-portrait reveal">
+            <img src="{{ asset('assets/images/about/md-sir-portrait.webp') }}" alt="MD Al Mahmud, Founder and Managing Director of MADINA Scale & Co." loading="lazy" decoding="async">
+            <div class="md-message-photo-caption">
+                <strong>MD Al Mahmud</strong>
+                <span>Founder &amp; Managing Director</span>
+            </div>
+        </div>
+        <div class="md-message-copy reveal">
+            <span class="section-kicker"><i></i> A MESSAGE FROM OUR FOUNDER</span>
+            <div class="md-quote-mark" aria-hidden="true">“</div>
+            <blockquote>
+                Our goal is to make dependable weighing solutions accessible to every business and customer. We believe trust is built through product quality, honest guidance and support that continues long after a purchase.
+            </blockquote>
+            <div class="md-message-signature">
+                <strong>MD Al Mahmud</strong>
+                <span>Founder &amp; Managing Director, MADINA Scale &amp; Co.</span>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="section why-section">
             <div class="container">

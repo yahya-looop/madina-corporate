@@ -24,10 +24,11 @@
                 <a href="{{ route('solutions') }}">Specialized Scales</a>
             </div>
 
-            <div class="footer-links footer-online-links">
-                <h3>Online</h3>
-                <a href="https://madinascale.online" target="_blank" rel="noopener">Online Store <span>↗</span></a>
-                <a href="{{ route('contact') }}">Contact MADINA</a>
+            <div class="footer-links footer-contact-links">
+                <h3>Get in touch</h3>
+                <a href="tel:+8801714-989142">+880 1714-989142</a>
+                <a href="mailto:madinascale@yahoo.com">madinascale@yahoo.com</a>
+                <a href="{{ route('contact') }}">Contact page <span>↗</span></a>
             </div>
         </div>
         <div class="container footer-bottom">

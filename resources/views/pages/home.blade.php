@@ -131,26 +131,12 @@
                 <div class="about-visual reveal">
                     <div class="about-photo">
                         <div class="photo-grid" aria-hidden="true"></div>
-                        <div class="facility-art" aria-hidden="true">
-                            <svg viewBox="0 0 600 430">
-                                <defs><linearGradient id="building" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dbe6e1"/><stop offset="1" stop-color="#60736b"/></linearGradient></defs>
-                                <path d="M35 165 292 45 565 151 565 389 35 389Z" fill="#142a22"/>
-                                <path d="M35 165 292 45 292 389 35 389Z" fill="url(#building)"/>
-                                <path d="M292 45 565 151 565 389 292 389Z" fill="#1d342b"/>
-                                <path d="M50 181 280 77 280 113 50 219Z" fill="#f1f6f3" opacity=".65"/>
-                                <path d="M50 236 280 132M50 294 280 190M50 352 280 248" stroke="#9bb2a7" stroke-width="7"/>
-                                <path d="M78 203 78 376M150 171 150 376M222 138 222 376" stroke="#62776c" stroke-width="6"/>
-                                <path d="M314 102 544 191 544 376 314 376Z" fill="#0c1e18"/>
-                                <path d="M333 133 525 207 525 366 333 366Z" fill="#9fb1a8"/>
-                                <path d="M343 145 514 211 514 354 343 354Z" fill="#19352a"/>
-                                <path d="M354 157 501 215 501 342 354 342Z" fill="#a9c0b4"/>
-                                <path d="M355 250 500 307M355 286 500 343" stroke="#19352a" stroke-width="5"/>
-                                <path d="M292 45 565 151 565 176 292 70Z" fill="#e8f0ec"/>
-                                <path d="M82 170 190 121 252 145 145 194Z" fill="#00b95b"/>
-                                <path d="M92 167 191 124 240 144 143 188Z" fill="#f8fffb"/>
-                                <text x="166" y="163" text-anchor="middle" font-family="Arial" font-weight="800" font-size="23" fill="#0d281d">MADINA</text>
-                                <path d="M25 389H579" stroke="#dce8e2" stroke-width="9"/>
-                            </svg>
+                        <div class="facility-art">
+                            <img
+                                src="{{ asset('assets/images/about/madina-facility.webp') }}"
+                                alt="MADINA team"
+                                loading="lazy"
+                            >
                         </div>
                         <div class="about-image-label"><span class="label-mark">M</span><span>Weighing confidence<br><b>Since 2008</b></span></div>
                     </div>
@@ -178,10 +164,10 @@
                     <a class="text-link heading-link" href="{{ route('contact') }}">Need help choosing? <span>↗</span></a>
                 </div>
                 <div class="solution-grid">
-                    <a class="solution-card reveal" href="{{ route('contact') }}"><div class="product-art commercial-art"><svg viewBox="0 0 260 190"><path d="M92 64 169 64 177 133 83 133Z" fill="#66736e"/><path d="M99 72 161 72 166 125 94 125Z" fill="#c8d1cd"/><path d="M88 129 174 129 193 147 70 147Z" fill="#26342e"/><path d="M79 145 186 145 175 155 91 155Z" fill="#101b17"/><path d="M115 62 117 20 144 20 146 62" fill="#899690"/><path d="M105 20 156 20 164 53 97 53Z" fill="#293b33"/><rect x="108" y="27" width="45" height="18" rx="3" fill="#06120e"/><text x="130" y="41" font-size="12" text-anchor="middle" fill="#00e781" font-family="monospace">0.000</text><path d="M70 150 64 162M186 150 192 162" stroke="#25332c" stroke-width="7" stroke-linecap="round"/></svg></div><div class="solution-card-copy"><span class="card-number">01 / COMMERCIAL</span><h3>Commercial Scales</h3><p>For retail, trade and everyday weighing.</p><span class="card-arrow">↗</span></div></a>
-                    <a class="solution-card reveal" href="{{ route('contact') }}"><div class="product-art industrial-art"><svg viewBox="0 0 260 190"><path d="M119 23 141 23 141 127 119 127Z" fill="#89958f"/><path d="M82 124 177 124 202 145 57 145Z" fill="#b8c2bd"/><path d="M58 145 201 145 185 158 76 158Z" fill="#26342e"/><path d="M108 25 154 25 161 60 101 60Z" fill="#273b31"/><rect x="113" y="31" width="39" height="19" rx="3" fill="#07150f"/><text x="132" y="45" font-size="10" text-anchor="middle" fill="#00e781" font-family="monospace">0.000</text><path d="M77 137 69 163M185 137 193 163" stroke="#27342e" stroke-width="8" stroke-linecap="round"/><path d="M81 163h18m77 0h18" stroke="#121e18" stroke-width="6" stroke-linecap="round"/></svg></div><div class="solution-card-copy"><span class="card-number">02 / INDUSTRIAL</span><h3>Industrial Scales</h3><p>For demanding, heavy-duty applications.</p><span class="card-arrow">↗</span></div></a>
-                    <a class="solution-card reveal" href="{{ route('contact') }}"><div class="product-art counting-art"><svg viewBox="0 0 260 190"><path d="M61 102 190 102 210 135 43 135Z" fill="#b9c5bf"/><path d="M43 135 210 135 190 151 61 151Z" fill="#25352e"/><path d="M86 42 175 42 190 100 71 100Z" fill="#273b33"/><path d="M97 50 166 50 175 85 87 85Z" fill="#07150f"/><g fill="#00e781"><rect x="101" y="57" width="17" height="10" rx="2"/><rect x="122" y="57" width="17" height="10" rx="2"/><rect x="143" y="57" width="17" height="10" rx="2"/></g><g fill="#d7e1dc"><circle cx="103" cy="91" r="3"/><circle cx="117" cy="91" r="3"/><circle cx="131" cy="91" r="3"/><circle cx="145" cy="91" r="3"/><circle cx="159" cy="91" r="3"/></g><path d="M65 149 60 162M188 149 194 162" stroke="#25352e" stroke-width="7" stroke-linecap="round"/></svg></div><div class="solution-card-copy"><span class="card-number">03 / COUNTING</span><h3>Counting Scales</h3><p>For inventory and parts counting.</p><span class="card-arrow">↗</span></div></a>
-                    <a class="solution-card reveal" href="{{ route('contact') }}"><div class="product-art precision-art"><svg viewBox="0 0 260 190"><path d="M78 139 181 139 198 153 62 153Z" fill="#27362f"/><path d="M88 138 99 35 161 35 174 138" fill="none" stroke="#899690" stroke-width="8"/><path d="M98 36h64M90 56h80" stroke="#c6d0cb" stroke-width="5"/><path d="M110 43 150 43 158 70 102 70Z" fill="#273b33"/><rect x="111" y="49" width="38" height="13" rx="2" fill="#06150f"/><text x="130" y="59" font-size="8" text-anchor="middle" fill="#00e781" font-family="monospace">0.000</text><path d="M102 88h56l-8 28h-40Z" fill="#d9e2dd" opacity=".75"/><path d="M104 119h52" stroke="#8a9891" stroke-width="4"/></svg></div><div class="solution-card-copy"><span class="card-number">04 / SPECIALIZED</span><h3>Specialized Scales</h3><p>For specific and precision applications.</p><span class="card-arrow">↗</span></div></a>
+                    <a class="solution-card reveal" href="{{ route('contact') }}"><div class="product-art"><img src="{{ asset('assets/images/solutions/commercial-scale.webp') }}" alt="MADINA commercial digital price computing scale" loading="lazy" decoding="async"></div><div class="solution-card-copy"><span class="card-number">01 / COMMERCIAL</span><h3>Commercial Scales</h3><p>For retail, trade and everyday weighing.</p><span class="card-arrow">↗</span></div></a>
+                    <a class="solution-card reveal" href="{{ route('contact') }}"><div class="product-art"><img src="{{ asset('assets/images/solutions/industrial-scale.webp') }}" alt="MADINA industrial platform weighing scale" loading="lazy" decoding="async"></div><div class="solution-card-copy"><span class="card-number">02 / INDUSTRIAL</span><h3>Industrial Scales</h3><p>For demanding, heavy-duty applications.</p><span class="card-arrow">↗</span></div></a>
+                    <a class="solution-card reveal" href="{{ route('contact') }}"><div class="product-art"><img src="{{ asset('assets/images/solutions/counting-scale.webp') }}" alt="MADINA pocket scale for cotton GSM measurement" loading="lazy" decoding="async"></div><div class="solution-card-copy"><span class="card-number">03 / COUNTING</span><h3>Counting Scales</h3><p>For inventory and parts counting.</p><span class="card-arrow">↗</span></div></a>
+                    <a class="solution-card reveal" href="{{ route('contact') }}"><div class="product-art"><img src="{{ asset('assets/images/solutions/specialized-scale-d4.webp') }}" alt="MADINA D4 digital body weight scale" loading="lazy" decoding="async"></div><div class="solution-card-copy"><span class="card-number">04 / SPECIALIZED</span><h3>Specialized Scales</h3><p>For specific and precision applications.</p><span class="card-arrow">↗</span></div></a>
                 </div>
             </div>
         </section>

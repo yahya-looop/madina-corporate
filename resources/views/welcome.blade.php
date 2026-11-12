@@ -6,6 +6,8 @@
     <meta name="theme-color" content="#071b15">
     <title>MADINA | Weighing Solutions for a Smarter World</title>
     <meta name="description" content="Discover weighing and measurement solutions for commercial, industrial and specialized applications from MADINA.">
+    <meta name="keywords" content="weighing solutions, weighing scales, commercial scales, industrial scales, counting scales, specialized scales, MADINA, Bangladesh">
+    <meta name="author" content="Yahya Al Mahmood">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">

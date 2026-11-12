@@ -20,8 +20,5 @@
                 <a class="nav-link {{ request()->routeIs('dealers') ? 'active' : '' }}" href="{{ route('dealers') }}">Dealers</a>
                 <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact</a>
             </nav>
-            <div class="nav-actions">
-                <a class="button button-primary nav-cta" href="{{ route('contact') }}">Get in Touch <span class="button-arrow">→</span></a>
-            </div>
         </div>
     </header>
